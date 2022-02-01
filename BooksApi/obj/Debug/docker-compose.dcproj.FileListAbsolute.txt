@@ -1,0 +1,12 @@
+/Users/trongnhan/Dev/BooksApi/bin/Debug/BooksApi.deps.json
+/Users/trongnhan/Dev/BooksApi/bin/Debug/BooksApi.runtimeconfig.json
+/Users/trongnhan/Dev/BooksApi/bin/Debug/BooksApi.runtimeconfig.dev.json
+/Users/trongnhan/Dev/BooksApi/bin/Debug/appsettings.Development.json
+/Users/trongnhan/Dev/BooksApi/bin/Debug/appsettings.json
+/Users/trongnhan/Dev/BooksApi/bin/Debug/BooksApi.dll
+/Users/trongnhan/Dev/BooksApi/bin/Debug/MongoDB.Bson.dll
+/Users/trongnhan/Dev/BooksApi/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/trongnhan/Dev/BooksApi/bin/Debug/BooksApi.pdb
+/Users/trongnhan/Dev/BooksApi/obj/Debug/docker-compose.dcproj.AssemblyReference.cache
+/Users/trongnhan/Dev/BooksApi/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/trongnhan/Dev/BooksApi/obj/Debug/docker-compose.dcproj.CopyComplete

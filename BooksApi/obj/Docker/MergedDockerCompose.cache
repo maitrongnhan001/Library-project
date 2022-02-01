@@ -1,0 +1,16 @@
+services:
+  booksapi:
+    build:
+      context: /Users/trongnhan/Dev/BooksApi
+      dockerfile: BooksApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: booksapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/trongnhan/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/trongnhan/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
