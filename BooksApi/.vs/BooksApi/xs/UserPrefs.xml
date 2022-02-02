@@ -1,23 +1,15 @@
 ﻿<Properties StartupConfiguration="{C4A24689-889F-486C-86AF-6D4722DE256A}|Default">
   <MonoDevelop.Ide.ItemProperties.BooksApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BooksApi/Controllers/BooksController.cs">
-    <Files>
-      <File FileName="BooksApi/Models/Book.cs" Line="8" Column="6" />
-      <File FileName="BooksApi/appsettings.json" />
-      <File FileName="BooksApi/Models/BookstoreDatabaseSettings.cs" />
-      <File FileName="BooksApi/Startup.cs" />
-      <File FileName="BooksApi/Services/BookService.cs" />
-      <File FileName="BooksApi/Controllers/BooksController.cs" Line="74" Column="2" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BooksApi" expanded="True">
             <Node name="BooksApi" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="BooksController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
