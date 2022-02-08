@@ -1,0 +1,34 @@
+.book-item {
+    width: 19rem;
+    height: 10rem;
+    border-radius: 10px;
+    float: left;
+    background-color: #efefef;
+    margin: 1rem;
+    overflow: hidden;
+
+    .col-book-img {
+        width: 40%;
+        height: 100%;
+        float: left;
+
+        .book-item-img {
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+            margin: 10% 10%;
+        }
+    }
+
+    .col-book-info {
+        width: 55%;
+        margin-left: 5%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: left;
+
+        .name-book {
+            margin: 5px 0;
+        }
+    }
+}

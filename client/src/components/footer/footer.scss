@@ -1,0 +1,40 @@
+.footer-container {
+    width: 100%;
+    margin: 0;
+    background-color: #2F4F4F;
+    color: #fff;
+
+    .web-info {
+        width: 25%;
+        float: left;
+        margin-left: 5%;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .footer-phone {
+            font-size: 20px;
+        }
+    }
+
+    .footer-more-info {
+        width: 30%;
+        margin: 0 10%;
+        float: left;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .footer-social {
+        width: 20%;
+        float: left;
+        position: relative;
+        top: 3rem;
+
+        .footer-img {
+            width: 3rem;
+            margin-right: 1rem;
+        }
+    }
+}

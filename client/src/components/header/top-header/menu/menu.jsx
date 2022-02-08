@@ -37,19 +37,19 @@ const Menu = () => {
                 <li
                     className={`${ItemActive[1]}`}
                     onClick={() => animationClickItem(1)}
-                ><Link to="/">Categories</Link></li>
+                ><Link to="/categories">Categories</Link></li>
                 <li
                     className={`${ItemActive[2]}`}
                     onClick={() => animationClickItem(2)}
-                ><Link to="/">Books</Link></li>
+                ><Link to="/books">Books</Link></li>
                 <li
                     className={`${ItemActive[3]}`}
                     onClick={() => animationClickItem(3)}
-                ><Link to="/">Add book</Link></li>
+                ><Link to="/add-book">Add book</Link></li>
                 <li
                     className={`${ItemActive[4]}`}
                     onClick={() => animationClickItem(4)}
-                ><Link to="/">Logout</Link></li>
+                ><Link to="/logout">Logout</Link></li>
             </ul>
         </div>
     );

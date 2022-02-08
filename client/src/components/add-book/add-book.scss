@@ -1,0 +1,66 @@
+.add-book-container {
+    width: 60%;
+    margin: 0 auto;
+    
+    .top-input-book {
+        width: 100%;
+        
+        .ip-add-book {
+            width: 40%;
+            margin: 0 4%;
+            float: left;
+        }
+
+        .select-add-book {
+            width: 44%;
+            margin: 0 2%;
+            float: left;
+        }
+    }
+
+    .main-input-book {
+        width: 100%;
+        margin: 2rem 0;
+
+        .ip-add-book {
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .bottom-input-book {
+        width: 100%;
+        margin-bottom: 1rem;
+
+        .review-img {
+            width: 50%;
+            height: 20rem;
+            margin: 0 auto;
+            border-radius: 10px;
+            background-color: #efefef;
+
+            input[type="file"] {
+                display: none;
+            }
+
+            .choese-img {
+                margin: 0 auto;
+                width: 120px;
+                text-align: center;
+                display: block;
+                position: relative;
+                top: 9rem;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                display: block;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+.category-item {
+    width: 20rem;
+    height: 8rem;
+    margin: 1rem 2rem 1rem 2rem;
+    background-color: #efefef;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #757575;
+    float: left;
+    
+    .category-image {
+        width: 7rem;
+        height: 7rem;
+        float: left;
+        margin: 0.5rem;
+        object-fit: cover;
+    }
+
+    .category-name {
+        float: left;
+        font-size: 20px;
+        max-width: 14rem;
+        margin: 3rem 1rem;
+        font-weight: bold;
+        overflow: hidden;
+    }
+}
+
+.category-item:hover {
+    cursor: pointer;
+}

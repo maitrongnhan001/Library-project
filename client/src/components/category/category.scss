@@ -1,0 +1,9 @@
+.category {
+    width: 80%;
+    margin: 1rem auto;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

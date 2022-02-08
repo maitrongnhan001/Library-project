@@ -7,7 +7,6 @@ const Header = () => {
     return (
         <div className='main-header'>
             <Top/>
-            <Banner/>
         </div>
     );
 }

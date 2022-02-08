@@ -7,3 +7,48 @@
 .clearfix {
   clear: both;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.ip {
+  height: 40px;
+  background-color: #efefef;
+  border: 0;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s all ease;
+  border: 0;
+  font-size: 18px;
+}
+
+.text-error {
+  color: red;
+}
+
+.text-success {
+  color: green;
+}
+
+.primary {
+  background-color: #029aff;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: rgb(0, 132, 219);
+}
